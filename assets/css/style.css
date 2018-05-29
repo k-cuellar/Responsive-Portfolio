@@ -223,19 +223,30 @@ body {
   }
 
   @media screen and (max-width: 768px) {
-    .main-container {
-        width: 750px;
+    #main-container {
+        width: 80%;
+    }
+
+    #masthead {
+      width: 100%;
+    }
+
+    footer {
+      width: 100%;
     }
   }
 
   @media screen and (max-width: 640px) {
-    .main-container {
-        width: 600px;
-        margin: 20px;
+    #main-container {
+        width: 80%;
     }
 
     .work {
-        width: 500px;
+        width: 50%;
+    }
+
+    #masthead {
+      width: 100%;
     }
 
     #logo {
